@@ -1,0 +1,61 @@
+workspace: "F:/research/naturesfrontier/runs/example"
+country_list: "Suriname"
+n_workders: 8
+use_pixel_level: true
+sdu_area: 0.1
+national_boundaries: "F:/research/naturesfrontier/inputs/national_boundaries/countries_iso3_NCI_trimmed.shp"
+succession_file: "F:/research/naturesfrontier/inputs/scenario_construction/potential_vegetation/succession_matrix.csv"
+lu_table_file: "F:/research/naturesfrontier/inputs/lulc_codes.csv"
+base:
+  current_lulc: "F:/research/naturesfrontier/inputs/current_lulc/modifiedESA_may27.tif"
+  pixel_area: "F:/research/naturesfrontier/inputs/pixel_area/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7_pixel_area_km2.tif"
+scenario_creation:
+  potential_vegetation: "F:/research/naturesfrontier/inputs/scenario_construction/potential_vegetation/potential_vegetation.tif"
+  protected_areas: "F:/research/naturesfrontier/inputs/scenario_construction/protected_areas/wdpa_merged.tif"
+  slope_threshold_expansion: "F:/research/naturesfrontier/inputs/scenario_construction/ag_slope_exclusion_masks/expansion_full.tif"
+  slope_threshold_intensification: "F:/research/naturesfrontier/inputs/scenario_construction/ag_slope_exclusion_masks/intensification_full.tif"
+  rainfed_suitability: "F:/research/naturesfrontier/inputs/scenario_construction/ag_crop_suitability_maps/rainfed_mask_ESAaligned.tif"
+  irrigated_suitability: "F:/research/naturesfrontier/inputs/scenario_construction/ag_crop_suitability_maps/irrigation_mask_ESAaligned.tif"
+  riparian_buffer: "F:/research/naturesfrontier/inputs/scenario_construction/riparian_buffer_location/riparian_buffer_mask_md5_6184cf8ea3ce479e1a0538fc49df2175.tif"
+  sustainable_irrigation: "F:/research/naturesfrontier/inputs/scenario_construction/ag_irrigation_potential/sustainable_irrigation_mask.tif"
+  soil_suitability: "F:/research/naturesfrontier/inputs/scenario_construction/ag_natural_expansion_potential/suitability_expansion_potential_mask_ESAaligned.tif"
+carbon:
+  carbon_zone_file: "F:/research/naturesfrontier/inputs/carbon/old_data/carbon_zones_fixed_nodata.tif"
+  carbon_table_file: "F:/research/naturesfrontier/inputs/carbon/old_data/exhaustive_carbon_table_20201110.csv"
+cropland:
+  crop_value_current: "F:/research/naturesfrontier/inputs/cropland/totalproductionvaluecurrentRevK_nolabor_machinerycosts.tif"
+  crop_value_intensified_irrigated: "F:/research/naturesfrontier/inputs/cropland/totalproductionvalueirrigatedRevK_nolabor_machinerycosts.tif"
+  crop_value_intensified_rainfed: "F:/research/naturesfrontier/inputs/cropland/totalproductionvaluerainfedRevK_nolabor_machinerycosts.tif"
+  palm_oil_value: "F:/research/naturesfrontier/inputs/cropland/oil_palm_split/totalproductionvaluecurrent_OnlyPalmOilRevR_nolabor_machinerycosts.tif"
+forestry:
+  forestry_value: "F:/research/naturesfrontier/inputs/forestry/forestry_land_share_return_tcost_before_2022_07_23.tif"
+grazing:
+  grazing_current_value: "F:/research/naturesfrontier/inputs/grazing/current_meat_revenue_per_ha_4c87c97694a88ee547a906a90d860b3d.tif"
+  grazing_potential_value: "F:/research/naturesfrontier/inputs/grazing/potential_meat_returns_per_ha_md5_d3428eb886da1d2313dcbd8adf87d71d.tif"
+  grazing_current_methane: "F:/research/naturesfrontier/inputs/grazing/current_grass_methane_filled_0.5_md5_18541ee16f3f2437a2086c48d164600d.tif"
+  grazing_potential_methane: "F:/research/naturesfrontier/inputs/grazing/potential_methane_filled_0.5_md5_9a8735eb022a44bc5a00b809bea69bcb.tif"
+biodiversity:
+  predicts_table_1: "F:/research/naturesfrontier/inputs/biodiversity/predicts_May2021_updated.csv"
+  predicts_table_2: "F:/research/naturesfrontier/inputs/biodiversity/predicts2_May2021.csv"
+  data_root: "F:/research/naturesfrontier/inputs/biodiversity/GlobalLayers"
+  plantation_raster: "F:/research/naturesfrontier/inputs/biodiversity/GlobalLayers/plantation_2022_06_03.tif"
+transition_cost:
+  data_root: "F:/research/naturesfrontier/inputs/transition_costs"
+nitrate_cancer_cases:
+  data_root: "F:/research/naturesfrontier/inputs/nitrate_cancer_cases"
+noxn_in_drinking_water:
+  data_root: "F:/research/naturesfrontier/inputs/2022-06-27-nci-noxn-rev8d348aa-slurm56410267-10km"
+optimization_scenarios:
+  - "extensification_bmps_irrigated"
+  - "extensification_bmps_rainfed"
+  - "extensification_current_practices"
+  - "extensification_intensified_irrigated"
+  - "extensification_intensified_rainfed"
+  - "fixedarea_bmps_irrigated"
+  - "fixedarea_bmps_rainfed"
+  - "fixedarea_intensified_irrigated"
+  - "fixedarea_intensified_rainfed"
+  - "forestry_expansion"
+  - "grazing_expansion"
+  - "restoration"
+  - "sustainable_current"
