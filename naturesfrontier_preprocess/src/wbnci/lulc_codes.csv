@@ -1,0 +1,80 @@
+﻿Code,Description,Source,Fixed,Natural,Developed,Cropland,Grazing,Forestry,Irrigated,BaseCode
+0,No Data,ESA,Yes,No,No,No,No,No,No,0
+10,"Cropland, rainfed",ESA,No,No,No,Yes,No,No,No,10
+11,"Cropland, rainfed, Herbaceous cover",ESA,No,No,No,Yes,No,No,No,11
+12,"Cropland, rainfed, Tree or shrub cover",ESA,No,No,No,Yes,No,No,No,12
+15,"Intensified agriculture, rainfed",Custom,No,No,No,Yes,No,No,No,15
+16,"Intensified agriculture with BMPs, rainfed",Custom,No,No,No,Yes,No,No,No,16
+20,"Cropland, irrigated or post-flooding",ESA,No,No,No,Yes,No,No,Yes,20
+25,"Intensified agriculture, irrigated",Custom,No,No,No,Yes,No,No,Yes,25
+26,"Intensified agriculture with BMPs, irrigated",Custom,No,No,No,Yes,No,No,Yes,26
+30,"Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)",ESA,No,No,No,Yes,No,No,No,30
+34,"Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)",Custom,No,No,No,Yes,Yes,No,No,30
+35,"Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)",Custom,No,No,No,Yes,No,Yes,No,30
+39,"Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)",Custom,No,No,No,Yes,Yes,Yes,No,30
+40,"Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)",ESA,No,No,No,Yes,No,No,No,40
+44,"Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)",Custom,No,No,No,No,Yes,No,No,40
+45,"Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)",Custom,No,No,No,No,No,Yes,No,40
+49,"Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)",Custom,No,No,No,No,Yes,Yes,No,40
+50,"Tree cover, broadleaved, evergreen, closed to open (>15%)",ESA,No,Yes,No,No,No,No,No,50
+55,"Tree cover, broadleaved, evergreen, closed to open (>15%)",Custom,No,No,No,No,No,Yes,No,50
+60,"Tree cover, broadleaved, deciduous, closed to open (>15%)",ESA,No,Yes,No,No,No,No,No,60
+65,"Tree cover, broadleaved, deciduous, closed to open (>15%)",Custom,No,No,No,No,No,Yes,No,60
+61,"Tree cover, broadleaved, deciduous, closed (>40%)",ESA,No,Yes,No,No,No,No,No,61
+66,"Tree cover, broadleaved, deciduous, closed (>40%)",Custom,No,No,No,No,No,Yes,No,61
+62,"Tree cover, broadleaved, deciduous, open (15â€40%)",ESA,No,Yes,No,No,No,No,No,62
+67,"Tree cover, broadleaved, deciduous, open (15â€40%)",Custom,No,No,No,No,No,Yes,No,62
+70,"Tree cover, needleleaved, evergreen, closed to open (>15%)",ESA,No,Yes,No,No,No,No,No,70
+75,"Tree cover, needleleaved, evergreen, closed to open (>15%)",Custom,No,NO,No,No,No,Yes,No,70
+71,"Tree cover, needleleaved, evergreen, closed (>40%)",ESA,No,Yes,No,No,No,No,No,71
+76,"Tree cover, needleleaved, evergreen, closed (>40%)",Custom,No,No,No,No,No,Yes,No,71
+72,"Tree cover, needleleaved, evergreen, open (15â€40%)",ESA,No,Yes,No,No,No,No,No,72
+77,"Tree cover, needleleaved, evergreen, open (15â€40%)",Custom,No,No,No,No,No,Yes,No,72
+80,"Tree cover, needleleaved, deciduous, closed to open (>15%)",ESA,No,Yes,No,No,No,No,No,80
+85,"Tree cover, needleleaved, deciduous, closed to open (>15%)",Custom,No,No,No,No,No,Yes,No,80
+81,"Tree cover, needleleaved, deciduous, closed (>40%)",ESA,No,Yes,No,No,No,No,No,81
+86,"Tree cover, needleleaved, deciduous, closed (>40%)",Custom,No,No,No,No,No,Yes,No,81
+82,"Tree cover, needleleaved, deciduous, open (15â€40%)",ESA,No,Yes,No,No,No,No,No,82
+87,"Tree cover, needleleaved, deciduous, open (15â€40%)",Custom,No,No,No,No,No,Yes,No,82
+90,"Tree cover, mixed leaf type (broadleaved and needleleaved)",ESA,No,Yes,No,No,No,No,No,90
+95,"Tree cover, mixed leaf type (broadleaved and needleleaved)",Custom,No,No,No,No,No,Yes,No,90
+100,Mosaic tree and shrub (>50%) / herbaceous cover (<50%),ESA,No,Yes,No,No,No,No,No,100
+104,Mosaic tree and shrub (>50%) / herbaceous cover (<50%),Custom,No,No,No,No,Yes,No,No,100
+105,Mosaic tree and shrub (>50%) / herbaceous cover (<50%),Custom,No,No,No,No,No,Yes,No,100
+109,Mosaic tree and shrub (>50%) / herbaceous cover (<50%),Custom,No,No,No,No,Yes,Yes,No,100
+110,Mosaic herbaceous cover (>50%) / tree and shrub (<50%),ESA,No,Yes,No,No,No,No,No,110
+114,Mosaic herbaceous cover (>50%) / tree and shrub (<50%),Custom,No,No,No,No,Yes,No,No,110
+115,Mosaic herbaceous cover (>50%) / tree and shrub (<50%),Custom,No,No,No,No,No,Yes,No,110
+119,Mosaic herbaceous cover (>50%) / tree and shrub (<50%),Custom,No,No,No,No,Yes,Yes,No,110
+120,Shrubland,ESA,No,Yes,No,No,No,No,No,120
+121,"Shrubland, Evergreen shrubland",ESA,No,Yes,No,No,No,No,No,121
+122,"Shrubland, Deciduous shrubland",ESA,No,Yes,No,No,No,No,No,122
+124,Shrubland,Custom,No,No,No,No,Yes,No,No,120
+125,"Shrubland, Evergreen shrubland",Custom,No,No,No,No,Yes,No,No,121
+126,"Shrubland, Deciduous shrubland",Custom,No,No,No,No,Yes,No,No,122
+130,Grassland,ESA,No,Yes,No,No,No,No,No,130
+134,Grassland,Custom,No,No,No,No,Yes,No,No,130
+140,Lichens and mosses,ESA,No,Yes,No,No,No,No,No,140
+144,Lichens and mosses,Custom,No,No,No,No,Yes,No,No,140
+150,"Sparse vegetation (tree, shrub, herbaceous cover) (<15%)",ESA,No,Yes,No,No,No,No,No,150
+151,??,ESA,No,Yes,No,No,No,No,No,151
+152,"Sparse vegetation, Sparse shrub (<15%)",ESA,No,Yes,No,No,No,No,No,152
+153,"Sparse vegetation, Sparse herbaceous cover (<15%)",ESA,No,Yes,No,No,No,No,No,153
+154,"Sparse vegetation (tree, shrub, herbaceous cover) (<15%)",Custom,No,No,No,No,Yes,No,No,150
+156,"Sparse vegetation, Sparse shrub (<15%)",Custom,No,No,No,No,Yes,No,No,152
+157,"Sparse vegetation, Sparse herbaceous cover (<15%)",Custom,No,No,No,No,Yes,No,No,153
+160,"Tree cover, flooded, fresh or brackish water",ESA,No,Yes,No,No,No,No,No,160
+165,"Tree cover, flooded, fresh or brackish water",Custom,No,No,No,No,No,Yes,No,160
+170,"Tree cover, flooded, saline water",ESA,No,Yes,No,No,No,No,No,170
+175,"Tree cover, flooded, saline water",Custom,No,No,No,No,No,Yes,No,170
+180,"Shrub or herbaceous cover, flooded, fresh/saline/brakish water",ESA,No,Yes,No,No,No,No,No,180
+184,"Shrub or herbaceous cover, flooded, fresh/saline/brakish water",Custom,No,No,No,No,Yes,No,No,180
+190,Urban areas,ESA,Yes,No,Yes,No,No,No,No,190
+200,Bare areas,ESA,No,Yes,No,No,No,No,No,200
+201,"Bare areas, Consolidated bare areas",ESA,No,Yes,No,No,No,No,No,201
+202,"Bare areas, Unconsolidated bare areas",ESA,No,Yes,No,No,No,No,No,202
+204,Bare areas,Custom,No,No,No,No,Yes,No,No,200
+205,"Bare areas, Consolidated bare areas",Custom,No,No,No,No,Yes,No,No,201
+206,"Bare areas, Unconsolidated bare areas",Custom,No,No,No,No,Yes,No,No,202
+210,Water bodies,ESA,Yes,Yes,No,No,No,No,No,210
+220,Permanent snow and ice,ESA,Yes,Yes,No,No,No,No,No,220
